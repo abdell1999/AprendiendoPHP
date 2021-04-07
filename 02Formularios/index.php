@@ -6,8 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 <body>
-    //CREDITOS A: https://www.youtube.com/watch?v=cka0J41iJY0&ab_channel=SoyDalto https://github.com/soydalto/Conexion-a-mysql-con-php
 
+    <!-- //CREDITOS A: https://www.youtube.com/watch?v=cka0J41iJY0&ab_channel=SoyDalto https://github.com/soydalto/Conexion-a-mysql-con-php -->
 
 
     <form method="post">
