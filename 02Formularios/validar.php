@@ -9,12 +9,11 @@ if (isset($_POST['register'])) {
       $apellido2 = trim($_POST['apellido2']);
 	    $correo = trim($_POST['correo']);
       $telefono = trim($_POST['telefono']);
-      $fechaNacimiento = $_POST['fechaNacimiento'];
 
 
 
-	    $consulta = "INSERT INTO datos(nombre, apellido1, apellido2, correo, telefono, fechaNacimiento) VALUES ('$nombre', '$apellido1', '$apellido2','$correo','$telefono', '$fechaNacimiento')";
-	    $resultado = mysqli_query($conex,$consulta);
+	    $consulta = "INSERT INTO suscriptores(nombre, apellido1, apellido2, correo, telefono) VALUES ('$nombre', '$apellido1', '$apellido2','$correo','$telefono')";
+	    $resultado = mysqli_query($conexion, $consulta);
 	    if ($resultado) {
 	    	?>
 	    	<h3 class="ok">¡Te has inscripto correctamente!</h3>
