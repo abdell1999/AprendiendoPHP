@@ -1,0 +1,12 @@
+DROP DATABASE IF EXISTS formulario;
+CREATE DATABASE formulario;
+USE formulario;
+
+CREATE TABLE suscriptores (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(100) NOT NULL,
+  apellido1 VARCHAR(100) NOT NULL,
+  apellido2 VARCHAR(100) ,
+  correo VARCHAR(200) NOT NULL UNIQUE,
+  telefono CHAR(9) NOT NULL UNIQUE
+);
